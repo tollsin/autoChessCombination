@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SelectActivity"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_goblin">
+
+        <ImageView
+            android:id="@+id/img_goblin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/goblin" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_soul_breaker"
+            android:layout_toRightOf="@id/img_goblin"
+            android:src="@drawable/soul_breaker_goblin" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_sky_breaker"
+            android:layout_toRightOf="@id/img_soul_breaker"
+            android:src="@drawable/sky_breaker_goblin" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_heaven_bomber"
+            android:layout_toRightOf="@id/img_sky_breaker"
+            android:src="@drawable/heaven_bomber_goblin" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_ripper"
+            android:layout_toRightOf="@id/img_heaven_bomber"
+            android:src="@drawable/ripper_goblin" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_venomancer"
+            android:layout_toRightOf="@id/img_ripper"
+            android:src="@drawable/venomancer_goblin" />
+
+        <ImageView
+            android:id="@+id/img_devastator"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/img_soul_breaker"
+            android:layout_alignLeft="@id/img_soul_breaker"
+            android:src="@drawable/devastator_goblin" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_goblin"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_humen"
+            android:src="@drawable/human"/>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_source"
+            android:layout_toRightOf="@id/img_humen"
+            android:src="@drawable/the_source_human" />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
